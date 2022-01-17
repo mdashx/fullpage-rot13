@@ -1,0 +1,3 @@
+# -*- mode: sh -*-
+
+alias cpwin='rm -rf /home/tom/windows/fullpage-rot13 && cp -r src /home/tom/windows/fullpage-rot13 && bash /home/tom/dotfiles/sync-windows.sh'

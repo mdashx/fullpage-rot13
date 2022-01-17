@@ -1,0 +1,15 @@
+{
+    "name": "Full Page ROT13",
+    "description": "Encrypt/decrypt an entire page using ROT13",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content-script.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
